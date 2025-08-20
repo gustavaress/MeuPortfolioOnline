@@ -1,1 +1,16 @@
-background-color: 
+@import url('./reset.css');
+
+:root {
+    --preto-c6: #131313;
+    --amarelo-c6: #ffb547;
+    --branco-c6:#eeeeee;
+}
+
+body {
+    background-color: var(--preto-c6);
+    color: var(--amarelo-c6);
+}
+
+strong {
+    color: var(--branco-c6);
+}
