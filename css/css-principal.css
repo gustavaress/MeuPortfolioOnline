@@ -7,10 +7,38 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: var(--preto-c6);
     color: var(--amarelo-c6);
 }
 
-strong {
+.apresentacao__conteudo__titulo {
     color: var(--branco-c6);
+    font-size: 50px;
+}
+
+p, li {
+    font-size: 22px;
+}
+
+.texto_destacado {
+    color: var(--branco-c6);
+}
+
+.apresentacao {
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 720px;
+}
+
+img {
+    width: 40%;
+    border-radius: 2%;
+    filter: grayscale(100%); 
 }
