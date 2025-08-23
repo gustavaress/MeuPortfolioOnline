@@ -1,4 +1,5 @@
 @import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
     --preto-c6: #131313;
@@ -16,10 +17,13 @@ body {
 .apresentacao__conteudo__titulo {
     color: var(--branco-c6);
     font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 50px;
 }
 
 p, li {
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .texto_destacado {
@@ -27,18 +31,19 @@ p, li {
 }
 
 .apresentacao {
-    margin: 8%;
+    margin: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Roboto Mono", monospace;
 }
 
 .apresentacao__conteudo {
-    width: 720px;
+    width: 900px;
 }
 
 img {
-    width: 40%;
+    width: 45%;
     border-radius: 2%;
     filter: grayscale(100%); 
 }
